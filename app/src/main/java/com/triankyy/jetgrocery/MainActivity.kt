@@ -20,6 +20,7 @@ import com.airbnb.lottie.compose.*
 import com.triankyy.jetgrocery.ui.theme.Green
 import com.triankyy.jetgrocery.ui.theme.GreenAccent
 import com.triankyy.jetgrocery.ui.theme.JetGroceryTheme
+import com.triankyy.jetgrocery.ui.theme.lighten
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -151,12 +152,10 @@ fun HomePage() {
                     fontWeight = FontWeight.Bold
                 )
             }
+
+            Row {
+                Box(modifier = Modifier.background(Green.lighten(1f)))
+            }
         }
     }
-}
-
-@Preview
-@Composable
-fun HomePreview() {
-    HomePage()
 }
