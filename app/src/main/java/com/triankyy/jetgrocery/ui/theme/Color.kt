@@ -9,9 +9,11 @@ val Purple500 = Color(0xFF6200EE)
 val Purple700 = Color(0xFF3700B3)
 val Teal200 = Color(0xFF03DAC5)
 
-val Green = Color(0xFFdbeaac)
-val GreenAccent = Color(0xFFEBF3D0)
-val BlueDark = Color(0xFF202E55)
+val AppGreen = Color(0xFFdbeaac)
+val AppGreenAccent = Color(0xFFEBF3D0)
+val AppBlueDark = Color(0xFF202E55)
+val AppRedAccent = Color(0xfffcdcdb)
+val AppBlueAccent = Color(0xffd6e7fc)
 
 fun Color.lighten(factor: Float): Color {
     // Convert the color to an ARGB color integer
