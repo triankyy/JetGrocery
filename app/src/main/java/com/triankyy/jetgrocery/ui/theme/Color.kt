@@ -12,8 +12,9 @@ val Teal200 = Color(0xFF03DAC5)
 val AppGreen = Color(0xFFdbeaac)
 val AppGreenAccent = Color(0xFFEBF3D0)
 val AppBlueDark = Color(0xFF202E55)
-val AppRedAccent = Color(0xfffcdcdb)
-val AppBlueAccent = Color(0xffd6e7fc)
+val AppPrimary = Color(0xFF6976DF)
+val AppGray = Color(0xFFC1C2CA)
+val AppBorderGray = Color(0xFFF2F4F3)
 
 fun Color.lighten(factor: Float): Color {
     // Convert the color to an ARGB color integer
